@@ -3,6 +3,6 @@ extraPorts:
   - name: echo
     protocol: udp
     containerPort: 4000
-  - name: broadcast
+  - name: game
     protocol: tcp
     containerPort: 4000
