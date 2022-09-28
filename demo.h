@@ -3,6 +3,7 @@
 
 #include <mutex>
 #include <deque>
+#include <thread>
 
 const int BUFFER_SIZE = 4096;
 
