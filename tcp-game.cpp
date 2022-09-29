@@ -112,6 +112,7 @@ int startTCPGameServer(int listenPort) {
           std::cerr << "[TCP] Something went wrong while receiving data!.\n";
           break;
         } else {
+          // TODO: buffer need to be treated as stream
           int number = atoi(buffer);
 
           std::cout << "[TCP] Received " << number << " from " << clientName << "\n";
