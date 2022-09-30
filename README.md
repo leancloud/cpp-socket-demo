@@ -7,14 +7,14 @@
 
 Other versions:
 
-- Makefile (current)
-- [CMake](https://github.com/leancloud/cpp-socket-demo/tree/cmake)
+- [Makefile](https://github.com/leancloud/cpp-socket-demo)
+- CMake (current)
 - [Bazel](https://github.com/leancloud/cpp-socket-demo/tree/bazel)
 
 ## Build and start server
 
 ```
-$ make && ./cpp-socket
+$ cmake . && make && ./cpp-socket
 [UDP] Socket is listening on 4000
 [TCP] Socket is listening on 4000
 [HTTP] Socket is listening on 3000
